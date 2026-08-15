@@ -1,0 +1,4 @@
+.categories{max-height:154px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none}
+.categories::-webkit-scrollbar{display:none}
+@media(max-height:700px){.categories{grid-template-columns:repeat(5,1fr);max-height:116px}}
+.chart-donut{background:conic-gradient(var(--iris) 0 100%)}
